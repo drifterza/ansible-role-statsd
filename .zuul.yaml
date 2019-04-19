@@ -3,7 +3,7 @@
     run: tests/test.yaml
     post-run: tests/collect-logs.yaml
     roles:
-      - zuul: openstack/ansible-role-statsd
+      - zuul: windmill/ansible-role-statsd
 
 - job:
     name: ansible-role-statsd-fedora-latest
